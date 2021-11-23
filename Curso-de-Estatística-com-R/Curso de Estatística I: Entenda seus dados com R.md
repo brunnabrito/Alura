@@ -63,4 +63,9 @@
  * Variância e como calculá-la
  * Desvio padrão e como calculá-lo
 
+# Praticando: desvio padrão
+ * Como calcular a variância com a função var()
+ * Como calcular o desvio padrão com a função sd()
+ * Como ler um arquivo CSV com a função read.csv()
+
 
