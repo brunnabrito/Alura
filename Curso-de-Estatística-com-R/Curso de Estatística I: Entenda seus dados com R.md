@@ -32,3 +32,20 @@
  > aulas <- c(2, 4, 4, 6, 6, 6, 6, 8, 8, 10)
  > hist(aulas)
 
+# Média, mediana e moda
+ * Sobre a Média Aritmética, que soma todos os itens e divide pela sua quantidade total
+ * Que escolher a MA sem levar em consideração o tipo de dado pode nos levar à conclusões errôneas
+ * Que a MA é sensível aos outliers
+ * Sobre a mediana, elemento que fica no meio de uma distribuição ordenada
+ * Sobre a moda, elemento que mais se repete na distribuição
+ * Usamos mediana ou moda para dados Ordinais
+
+# Praticando: média, mediana e moda
+ * Como funciona o cálculo de Média, com mean()
+ * Como funciona o cálculo de mediana, com median()
+ * Como descobrir se a distribuição é Normal ou não, utilizando shapiro.test()
+ * Se p-value for abaixo de 0.05, a distribuição não é Normal
+ * Se p-value for próximo de 1, a distribuição é Normal
+ * Como resumir as informações de uma lista de dados utilizando summary()
+
+
