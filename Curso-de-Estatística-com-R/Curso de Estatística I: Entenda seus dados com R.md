@@ -54,6 +54,9 @@
  * Como limpar os dados
  * Boxplot
 
-
+# Praticando: boxplots
+  * Como ver o primeiro e terceiro quartis, com o summary()
+  * Como desenhar o boxplot, com a função boxplot()
+  * Como gravar o boxplot em uma imagem no computador
 
 
