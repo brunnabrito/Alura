@@ -6,5 +6,5 @@
   * Racional -> menos comum, bem parecido com o Intervalar, composto de números em ordem, e cuja diferença de um para outro é mensurável, usado muito em física
 
 
-*** Histograma ***
+***Histograma***
   * um gráfico que mostra a quantidade de frequências e quantas vezes elas se repetem
