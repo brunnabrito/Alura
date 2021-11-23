@@ -48,4 +48,12 @@
  * Se p-value for próximo de 1, a distribuição é Normal
  * Como resumir as informações de uma lista de dados utilizando summary()
 
+# Variabilidade, dispersão dos dados, outliers e quartis
+ * Amplitude
+ * Distribuição por quartis
+ * Como limpar os dados
+ * Boxplot
+
+
+
 
