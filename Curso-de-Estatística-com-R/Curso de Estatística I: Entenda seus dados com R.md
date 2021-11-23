@@ -59,4 +59,8 @@
   * Como desenhar o boxplot, com a função boxplot()
   * Como gravar o boxplot em uma imagem no computador
 
+# Entendendo melhor a distribuição
+ * Variância e como calculá-la
+ * Desvio padrão e como calculá-lo
+
 
