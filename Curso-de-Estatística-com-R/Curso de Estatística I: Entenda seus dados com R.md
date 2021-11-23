@@ -68,4 +68,22 @@
  * Como calcular o desvio padrão com a função sd()
  * Como ler um arquivo CSV com a função read.csv()
 
+# População x amostra: pensando em um estudo
+ * Amostras
+ * Como selecionar a amostra de uma população
+ * Que a média da amostra deve ser igual à da população
+ * Que a variância da população é maior que a da amostra
 
+# Praticando: graus de liberdade
+ * Graus de liberdade
+ * Fórmula da variância
+   *Se a amostra é grande, a variância dela e da população serão parecidas, então não é necessário utilizar o n-1 na fórmula
+
+# Diminuindo o erro: intervalos de confiança
+ * Intervalo de confiança
+ * Nível de confiança
+
+#Praticando: intervalos de confiança
+ * Como verificar o intervalo de confiança com o t.test()
+ * Como alterar o intervalo de confiança, adicionando o parâmetro conf.level no t.test()
+ * Como desenhar no histograma com abline()
