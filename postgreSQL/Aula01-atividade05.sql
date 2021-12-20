@@ -68,3 +68,112 @@ VALUES (
 DELETE 
    FROM aluno
   WHERE nome = 'Nico';
+
+SELECT * 
+   FROM aluno;
+
+   SELECT nome 
+  FROM aluno;
+  
+ SELECT nome,
+ 		idade
+  FROM aluno;
+   
+ SELECT nome,
+ 		idade,
+		matriculado_em
+  FROM aluno;
+  
+ SELECT nome,
+ 		idade,
+		matriculado_em as quando_se_matriculou
+  FROM aluno;
+  
+ SELECT nome as "Nome do Aluno",
+ 		idade,
+		matriculado_em as quando_se_matriculou
+  FROM aluno;  
+  
+ SELECT nome as Nome do Aluno,
+ 		idade,
+		matriculado_em as quando_se_matriculou
+  FROM aluno;
+  
+ SELECT nome as "Nome do Aluno",
+ 		idade,
+		matriculado_em as quando_se_matriculou
+  FROM aluno; 
+
+  INSERT INTO aluno (nome) VALUES('Vinicius Dias');
+INSERT INTO aluno (nome) VALUES('Nico Steppat');
+INSERT INTO aluno (nome) VALUES('João Roberto');
+INSERT INTO aluno (nome) VALUES('Diego');
+
+SELECT *
+  FROM aluno; 
+  
+SELECT *
+  FROM aluno
+ WHERE nome= 'Diogo';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome <> 'Diogo';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome != 'Diogo';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome LIKE '_iogo';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome LIKE 'Di_go';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome NOT LIKE 'Di_go';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome LIKE 'D%';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome LIKE '%s';
+ 
+ SELECT *
+  FROM aluno
+ WHERE nome LIKE '% %';
+ 
+SELECT *
+  FROM aluno
+ WHERE nome LIKE '%i%a%';
+
+ SELECT *
+  FROM aluno
+ WHERE nome LIKE 'D%'
+   AND cpf IS NOT NULL;
+   
+SELECT *
+  FROM aluno
+ WHERE nome LIKE 'Diogo'
+   OR nome LIKE 'Rodrigo';
+   
+SELECT *
+  FROM aluno
+ WHERE nome LIKE 'Diogo'
+    OR nome LIKE 'Rodrigo'
+	OR nome LIKE 'Nico%';
+	
+SELECT *
+  FROM aluno
+ WHERE nome LIKE '%Steppat'
+	AND nome LIKE 'Nico%';
+	
+SELECT *
+  FROM aluno
+ WHERE nome LIKE 'Diogo'
+	OR nome LIKE 'Nico%';
